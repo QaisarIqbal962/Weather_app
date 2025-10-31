@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import React, { useEffect, useState } from 'react'
+import  { useEffect, useState } from 'react'
 import { useDate } from '../Utils/useDate'
 import sun from '../assets/icons/sun.png'
 import cloud from '../assets/icons/cloud.png'
@@ -65,7 +65,7 @@ const WeatherCard = ({
         <p className='text-lg'>{heatIndex ? heatIndex : 'N/A'}</p>
       </div>
       <hr className='bg-slate-600' />
-      <div className='w-full p-4 flex justify-center items-center text-3xl font-semibold'>
+      <div className='w-full p-2 flex justify-center items-center text-2xl font-semibold'>
         {conditions}
       </div>
     </div>
